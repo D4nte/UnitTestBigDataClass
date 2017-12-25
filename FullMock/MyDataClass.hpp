@@ -9,6 +9,8 @@ class MyDataClass
         virtual const std::string getString() const = 0;
 
         virtual const int getInt() const = 0;
+
+        // And many other getters
 };
 
 #endif
