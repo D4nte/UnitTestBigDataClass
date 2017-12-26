@@ -19,12 +19,10 @@ class MyFeature: public MyFeatureAbstract
         MyFeature(const MyDataClass& iData):
             _data(iData) {};
 
-
     protected:
         const std::string getDataString() const;
 
         const MyDataClass& _data;
-
 };
 
 #endif
