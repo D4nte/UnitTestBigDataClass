@@ -1,4 +1,4 @@
-Code example for <link to medium article>
+Code example for https://medium.com/@royer.franck/unit-testing-legacy-code-big-data-classes-286c38eae98
 
 Pre-requisites: Gmock, Test and CMake installed.
 
