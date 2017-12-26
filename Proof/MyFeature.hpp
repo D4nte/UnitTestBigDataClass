@@ -1,8 +1,8 @@
 #include <string>
 #include "MyDataClass.hpp"
 
-#ifndef MYFEATURE_HPP
-#define MYFEATURE_HPP
+#ifndef MYFEATUREHPP
+#define MYFEATUREHPP
 
 class MyFeatureAbstract
 {

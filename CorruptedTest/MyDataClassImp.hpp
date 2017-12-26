@@ -1,7 +1,7 @@
 #include "MyDataClass.hpp"
 
-#ifndef MYDATACLASSIMP_HPP
-#define MYDATACLASSIMP_HPP
+#ifndef MYDATACLASSIMPHPP
+#define MYDATACLASSIMPHPP
 
 class  MyDataClassImp: public MyDataClass
 {
