@@ -1,20 +1,20 @@
-#include "MyFeature.hpp"
+#include "MyNewFeature.hpp"
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 
 using ::testing::Return;
 using ::testing::NiceMock;
 
-struct MockMyFeature: public MyFeatureAbstract
+struct MockMyNewFeature: public MyNewFeatureAbstract
 {
     MOCK_CONST_METHOD0(getDataString, const std::string());
 };
 
 namespace
 {
-	TEST(MyFeatureTest, PrependFestiveWord)
+	TEST(MyNewFeatureTest, PrependFestiveWord)
 	{
-		NiceMock<MockMyFeature> myFeature;
+		NiceMock<MockMyNewFeature> myFeature;
 		std::string strDef = "ho ho ho";
 
 		ON_CALL(myFeature, getDataString())

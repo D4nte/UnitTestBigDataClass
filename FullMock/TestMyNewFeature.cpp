@@ -1,5 +1,5 @@
-#include "MyFeature.hpp"
-#include "MockMyDataClass.hpp"
+#include "MyNewFeature.hpp"
+#include "MockStinkyOldLegacyDataClass.hpp"
 #include "gtest/gtest.h"
 
 using ::testing::Return;
@@ -7,15 +7,15 @@ using ::testing::NiceMock;
 
 namespace
 {
-	TEST(MyFeatureTest, PrependFestiveWord)
+	TEST(MyNewFeatureTest, PrependFestiveWord)
 	{
-		NiceMock<MockMyDataClass> myMock;
+		NiceMock<MockStinkyOldLegacyDataClass> myMock;
 		std::string strDef = "ho ho ho";
 
 		ON_CALL(myMock, getString())
 			.WillByDefault(Return(strDef));
 
-		MyFeature myFeature;
+		MyNewFeature myFeature;
 
 		const std::string strReturned = myFeature.execute(myMock);
 

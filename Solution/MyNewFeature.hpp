@@ -1,10 +1,10 @@
 #include <string>
-#include "MyDataClass.hpp"
+#include "StinkyOldLegacyDataClass.hpp"
 
 #ifndef MYFEATUREHPP
 #define MYFEATUREHPP
 
-class MyFeatureAbstract
+class MyNewFeatureAbstract
 {
     public:
         const std::string execute();
@@ -13,16 +13,16 @@ class MyFeatureAbstract
             virtual const std::string getDataString() const = 0;
 };
 
-class MyFeature: public MyFeatureAbstract
+class MyNewFeature: public MyNewFeatureAbstract
 {
     public:
-        MyFeature(const MyDataClass& iData):
+        MyNewFeature(const StinkyOldLegacyDataClass& iData):
             _data(iData) {};
 
     protected:
         const std::string getDataString() const;
 
-        const MyDataClass& _data;
+        const StinkyOldLegacyDataClass& _data;
 };
 
 #endif

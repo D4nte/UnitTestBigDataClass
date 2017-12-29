@@ -1,6 +1,6 @@
-#include "MyFeature.hpp"
+#include "MyNewFeature.hpp"
 
-const std::string MyFeatureAbstract::execute()
+const std::string MyNewFeatureAbstract::execute()
 {
     std::string str = "Merry Christmas! ";
     const int aInt = getDataInt();
@@ -12,12 +12,12 @@ const std::string MyFeatureAbstract::execute()
     return str;
 }
 
-const std::string MyFeature::getDataString() const
+const std::string MyNewFeature::getDataString() const
 {
     return _data.getString();
 }
 
-const int MyFeature::getDataInt() const
+const int MyNewFeature::getDataInt() const
 {
     return _data.getInt();
 }

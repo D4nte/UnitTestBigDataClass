@@ -3,7 +3,7 @@
 #ifndef MYDATACLASSHPP
 #define MYDATACLASSHPP
 
-class MyDataClass
+class StinkyOldLegacyDataClass
 {
     public:
         virtual const std::string getString() const = 0;

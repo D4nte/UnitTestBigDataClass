@@ -1,7 +1,7 @@
 #include <gmock/gmock.h>
-#include "MyDataClass.hpp"
+#include "StinkyOldLegacyDataClass.hpp"
 
-class MockMyDataClass: public MyDataClass
+class MockStinkyOldLegacyDataClass: public StinkyOldLegacyDataClass
 {
 	public: 
 		MOCK_CONST_METHOD0(getString, const std::string());

@@ -1,9 +1,9 @@
-#include "MyDataClass.hpp"
+#include "StinkyOldLegacyDataClass.hpp"
 
 #ifndef MYDATACLASSIMPHPP
 #define MYDATACLASSIMPHPP
 
-class  MyDataClassImp: public MyDataClass
+class  StinkyOldLegacyDataClassImp: public StinkyOldLegacyDataClass
 {
     public:
         const std::string getString() const;

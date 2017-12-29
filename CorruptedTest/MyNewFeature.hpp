@@ -1,11 +1,11 @@
 #include <string>
-#include "MyDataClass.hpp"
+#include "StinkyOldLegacyDataClass.hpp"
 
-class MyFeature
+class MyNewFeature
 {
     public:
-        MyFeature()
+        MyNewFeature()
         {}
 
-        const std::string execute(const MyDataClass&  iData);
+        const std::string execute(const StinkyOldLegacyDataClass&  iData);
 };

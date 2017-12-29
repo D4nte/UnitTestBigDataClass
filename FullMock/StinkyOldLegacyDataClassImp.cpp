@@ -1,11 +1,11 @@
-#include "MyDataClassImp.hpp"
+#include "StinkyOldLegacyDataClassImp.hpp"
 
-const std::string MyDataClassImp::getString() const
+const std::string StinkyOldLegacyDataClassImp::getString() const
 {
     return "ha ha ha";
 }
 
-const int MyDataClassImp::getInt() const
+const int StinkyOldLegacyDataClassImp::getInt() const
 {
     return 42;
 }
