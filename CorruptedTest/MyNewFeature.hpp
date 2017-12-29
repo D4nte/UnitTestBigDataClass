@@ -7,5 +7,5 @@ class MyNewFeature
         MyNewFeature()
         {}
 
-        const std::string greet(const StinkyOldLegacyDataClass&  iData);
+        std::string greet(const StinkyOldLegacyDataClass& iData);
 };

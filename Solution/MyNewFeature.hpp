@@ -7,7 +7,7 @@
 class MyNewFeatureAbstract
 {
     public:
-        const std::string greet();
+        std::string greet();
 
     protected:
             virtual const std::string getDataString() const = 0;
