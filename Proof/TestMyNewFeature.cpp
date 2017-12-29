@@ -20,7 +20,7 @@ namespace
 		ON_CALL(myFeature, getDataString())
 			.WillByDefault(Return(strDef));
 
-		const std::string strReturned = myFeature.execute();
+		const std::string strReturned = myFeature.greet();
 
 		ASSERT_EQ(strReturned, "Merry Christmas! ho ho ho");
 	}

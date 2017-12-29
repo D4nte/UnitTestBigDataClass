@@ -1,6 +1,6 @@
 #include "MyNewFeature.hpp"
 
-const std::string MyNewFeature::execute(const StinkyOldLegacyDataClass&  iData)
+const std::string MyNewFeature::greet(const StinkyOldLegacyDataClass&  iData)
 {
     std::string str = "Merry Christmas! ";
     const int aInt = iData.getInt();

@@ -17,7 +17,7 @@ namespace
 
 		MyNewFeature myFeature;
 
-		const std::string strReturned = myFeature.execute(myMock);
+		const std::string strReturned = myFeature.greet(myMock);
 
 		ASSERT_EQ(strReturned, "Merry Christmas! ho ho ho");
 	}

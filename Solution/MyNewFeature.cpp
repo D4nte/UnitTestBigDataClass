@@ -1,6 +1,6 @@
 #include "MyNewFeature.hpp"
 
-const std::string MyNewFeatureAbstract::execute()
+const std::string MyNewFeatureAbstract::greet()
 {
     std::string str = "Merry Christmas! ";
     str.append(getDataString());
